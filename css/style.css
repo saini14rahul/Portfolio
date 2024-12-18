@@ -39,7 +39,7 @@ img { width: 100%; }
 .btn-2:hover { background-color: #8750f7; color: #ffffff; }
 
 header { padding: 5px 0; background-image: linear-gradient(to right top, #0f0715, #14091b, #170c21, #190e28, #1c0f2e); }
-.logo img { width: 45%; }
+.logo img { width: 40%; }
 nav li { padding: 0 20px; } 
 nav li a { padding-bottom: 5px; border-bottom: 1px solid #211238; font-weight: 600; }
 nav li a:hover { border-color: #ffffff; }
@@ -79,7 +79,8 @@ nav li a:hover { border-color: #ffffff; }
 .recent-work .button { background-color: #040609;  height: 100%; width: 35%; border-radius: 50px; }
 .btn-4 { padding: 12px 30px; color: #ffffff; border: none; border-radius: 20px; font-weight: 600; background-color: #040609; font-size: 15px; }
 .btn-4.active { padding: 12px 30px; color: #ffffff; border: none; border-radius: 20px; font-weight: 600; background-image: linear-gradient(to right, #8750f7, #7142d1, #5d34ac, #482789, #351b67); font-size: 15px; }
-.recent-work .my-work { width: 90%; height: 440px; border: 35px solid #0F0715; border-radius: 20px; border-bottom: none; margin-top: 50px; }
+.recent-work .my-work { width: 80%; height: auto; border: 35px solid #0F0715; border-radius: 20px; border-bottom: none; margin-top: 50px; }
+.recent-work .my-work img { width: 100%; height: auto; }
 /* .recent-work .work-banner { margin-top: 50px; } */
 .recent-work .open-page { position: relative; }
 .recent-work .open-page a { display: contents; }
