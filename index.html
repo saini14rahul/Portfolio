@@ -58,7 +58,7 @@
             <div class="row">
                 <div class="banner-intro col-6 col-s-12">
                     <h2>I am Rahul</h2>
-                    <h1>Frontend Developer.</h1>
+                    <h1>Web Designer</h1>
                     <p>I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people</p>
                     <!-- <button class="btn-2">Download CV</button> -->
                     <ul class="flex align-center">
@@ -499,6 +499,7 @@
         </div>
     </section>
 
+
     <section class="form" id="contact">
         <div class="container">
             <div class="row">
@@ -510,11 +511,13 @@
                         <div class="about-form">
                             <p>I design and code beautifully simple things and i love what i do. Just simple like that!</p>
                         </div>
+                       <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="edae6af7-ce6f-4980-9045-81a494f37eba">
                         <div class="form-detail">
-                            <input type="text" placeholder="First name">
-                            <input type="text" placeholder="Last name">
-                            <input type="email" placeholder="Email address">
-                            <input type="text" placeholder="Phone number">
+                            <input type="text" name="First name" placeholder="First name">
+                            <input type="text" name="Last name" placeholder="Last name">
+                            <input type="email" name="email" placeholder="Email address">
+                            <input type="text" name="contact" placeholder="Phone number">
                             <!-- <select>
                                 <option value="choose services">Choose Services</option>
                                 <option value="ui/ux">UI UX Design</option>
@@ -522,11 +525,12 @@
                                 <option value="app">App Design</option>
                                 <option value="developer">Developer</option>
                             </select> -->
-                            <textarea placeholder="Message"></textarea>
+                            <textarea name="message" placeholder="Message"></textarea>
                             <div class="col-5 col-s-9 flex align-center send-btn">
-                                <button class="btn message-btn">Send Message</button>
+                                <button class="btn message-btn" type="submit">Send Message</button>
                             </div>
                         </div>
+                       </form>
                     </div>
                 </div>
                 <div class="col-5 col-m-12 contact-info">
